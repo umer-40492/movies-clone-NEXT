@@ -19,7 +19,7 @@ export const metadata = {
   description: "this app is using IMDB movies clone",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children}) {
   return (
     <html lang="en">
       <body
