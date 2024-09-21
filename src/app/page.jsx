@@ -1,4 +1,4 @@
-import Results from "@/components/Results";
+import Results from '@/components/Results';
 
 const API_KEY = process.env.API_Key;
 export default async function Home({ searchParams }) {

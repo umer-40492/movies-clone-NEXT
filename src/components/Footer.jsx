@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { MdEmail } from "react-icons/md";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export default function footer() {
   return (

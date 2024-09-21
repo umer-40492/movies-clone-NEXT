@@ -14,7 +14,7 @@ export default function Searchbar() {
     <div>
             <form className='flex justify-between px-5 max-w-6xl mx-auto gap-2 mt-3'
         onSubmit={handleSubmit}>
-            <input type="text" placeholder='Search keywords...' className='w-full h-14 border border-gray-500 dark:border-white outline-none
+            <input type='text' placeholder='Search keywords...' className='w-full h-14 border border-gray-500 dark:border-white outline-none
              rounded-md placeholder-gray-500 bg-transparent flex-1 px-3'
              value={search}
              onChange={(e)=> setSearch(e.target.value)} />

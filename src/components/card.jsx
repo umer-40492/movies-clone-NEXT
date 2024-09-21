@@ -1,5 +1,5 @@
-import Link from "next/link";
-import Image from "next/image";
+import Link from 'next/link';
+import Image from 'next/image';
 import { FiThumbsUp } from 'react-icons/fi';
 
 export default function card({result}) {
@@ -10,7 +10,7 @@ export default function card({result}) {
         src={`https://image.tmdb.org/t/p/original/${
           result.backdrop_path || result.poster_path
         }`}
-        alt=""
+        alt=''
         width={500}
         height={300}
         className='sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300'

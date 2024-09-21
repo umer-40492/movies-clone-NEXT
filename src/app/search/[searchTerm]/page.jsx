@@ -1,4 +1,4 @@
-import Results from "@/components/Results";
+import Results from '@/components/Results';
 
 const API_KEY = process.env.API_Key;
 export default async function page({params}) {
@@ -11,7 +11,7 @@ export default async function page({params}) {
     <div>
         {
             results && results.length ===(
-                <h1 className="pt-6 text-center">No Result Found</h1>
+                <h1 className='pt-6 text-center'>No Result Found</h1>
             ) 
         }
         {results && <Results results={results} />}
